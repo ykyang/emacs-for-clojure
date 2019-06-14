@@ -168,4 +168,22 @@
 ;; use C-x for cut
 ;; C-c for copy
 ;; C-v for paste
-(cua-mode 1)
+;;(cua-mode 1)
+
+;; https://emacs.stackexchange.com/questions/34609/disable-hl-line-mode-at-startup
+(global-hl-line-mode 1)
+(set-face-attribute 'highlight nil :background "#e2e2e2" :foreground 'unspecified)
+
+
+
+(setq-default indent-tabs-mode nil)
+(setq-default tab-width 4)
+(setq-default tab-stop-list '(4 4 4 4 8 12 16 20 24 28 32 36 40 44 48 52 56 60 64 68 72 76 80))
+
+
+
+
+
+;;(setq tab-width 4)
+;;(setq indent-tabs-mode t)
+
